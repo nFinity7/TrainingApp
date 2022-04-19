@@ -181,7 +181,7 @@ function App() {
           );
         })}
       <br></br>
-      <div className="" style={{position:'absolute',right:"1px",top :'1px'}} >
+      <div className="" style={{marginTop: '50px'}} >
         <Button variant="secondary" className="m-2" onClick={handleLogout}>
           Log Out
         </Button>

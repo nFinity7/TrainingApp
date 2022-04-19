@@ -7,6 +7,8 @@ import App from "./App"
 import Login from "./login/Login"
 import PrivateRoute from "./login/PrivateRoute"
 import { auth } from './firebase';
+import Timer from './Timer';
+import MapComponent from './Map'
 
 
 function MainRouter() {
@@ -26,6 +28,8 @@ return (
             which will create an error since there is no user ID passed in (user not log in).
             Hence, this custom route will check if the user logged in, if not then redirect to "/login"*/}
                 <PrivateRoute exact path="/" component={App} />
+                <PrivateRoute exact path='/timer' component={Timer} />
+                <PrivateRoute exact path='/map' component={MapComponent} />
                 <div className="w-100 " style={{ maxWidth: "500px" }}>
                     <Route path="/signup" component={Signup} />
                     <Route path="/login" component={Login} />

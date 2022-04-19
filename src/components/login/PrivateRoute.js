@@ -1,6 +1,7 @@
 import React from "react"
 import { Route, Redirect } from "react-router-dom"
 import { useAuth } from "../contexts/AuthContext"
+import Layout from "../Layout"
 
 export default function PrivateRoute({ component: Component, ...rest }) {
     const { currentUser } = useAuth()
@@ -9,7 +10,7 @@ export default function PrivateRoute({ component: Component, ...rest }) {
     <Route
         {...rest}
         render={props => {
-        return currentUser ? <Component {...props} /> : <Redirect to="/login" />
+        return currentUser ? <Layout><Component {...props} /></Layout> : <Redirect to="/login" />
         }}
     ></Route>
     )
