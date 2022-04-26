@@ -32,7 +32,7 @@ export default function Timer() {
             size={250}
             colors={['#004777', '#F7B801', '#A30000', '#A30000']}
             colorsTime={[20, 15, 0]}
-            onComplete={() => console.log('123')}
+            onComplete={() => navigator.vibrate([500, 500, 1500, 500, 500])}
   
           >
             {renderTime}
