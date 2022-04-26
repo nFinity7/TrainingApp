@@ -8,7 +8,7 @@ import Login from "./login/Login"
 import PrivateRoute from "./login/PrivateRoute"
 import { auth } from './firebase';
 import Timer from './Timer';
-import MapComponent from './Map'
+import MapComponent from './map/Map'
 
 
 function MainRouter() {

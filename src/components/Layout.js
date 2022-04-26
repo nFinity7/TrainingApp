@@ -19,7 +19,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import App from "./App"
 import Timer from "./Timer"
-import Mapp from "./Map"
+import Mapp from "./map/Map"
 
 const drawerWidth = 240;
 
