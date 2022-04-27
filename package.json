@@ -1,6 +1,7 @@
 {
   "name": "training-app",
   "version": "0.1.0",
+  "homepage": "https://nFinity7.github.io/TrainingApp",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -16,6 +17,7 @@
     "bootstrap": "^4.5.2",
     "dotenv": "^10.0.0",
     "firebase": "^9.6.1",
+    "gh-pages": "^3.2.3",
     "leaflet": "^1.8.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.3.0",
@@ -30,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
