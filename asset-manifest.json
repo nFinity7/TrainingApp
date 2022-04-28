@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/TrainingApp/static/css/main.7438408c.css",
-    "main.js": "/TrainingApp/static/js/main.c3e09e81.js",
-    "static/js/787.a4516da3.chunk.js": "/TrainingApp/static/js/787.a4516da3.chunk.js",
-    "static/media/marker.png": "/TrainingApp/static/media/marker.60be1644ea74709b0558.png",
-    "index.html": "/TrainingApp/index.html",
-    "main.7438408c.css.map": "/TrainingApp/static/css/main.7438408c.css.map",
-    "main.c3e09e81.js.map": "/TrainingApp/static/js/main.c3e09e81.js.map",
-    "787.a4516da3.chunk.js.map": "/TrainingApp/static/js/787.a4516da3.chunk.js.map"
+    "main.css": "./static/css/main.7438408c.css",
+    "main.js": "./static/js/main.49a7f5d2.js",
+    "static/media/marker.png": "./static/media/marker.60be1644ea74709b0558.png",
+    "index.html": "./index.html",
+    "main.7438408c.css.map": "./static/css/main.7438408c.css.map",
+    "main.49a7f5d2.js.map": "./static/js/main.49a7f5d2.js.map"
   },
   "entrypoints": [
     "static/css/main.7438408c.css",
-    "static/js/main.c3e09e81.js"
+    "static/js/main.49a7f5d2.js"
   ]
 }
